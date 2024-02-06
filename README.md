@@ -7,14 +7,16 @@ Data Discretization: The dataset will be discretized by dividing continuous data
 Data Normalization: The dataset will be normalized to eliminate inconsistencies in the data due to varying scales.
 Clustering: The dataset will be clustered to group similar players together based on their attributes.
 Recommendation Engine: The recommendation engine will be developed using the clustered dataset to suggest players to users based on their preferences and gameplay style.
-Deliverables:
+
+# Deliverables:
 Cleaned and pre-processed FIFA dataset.
 Reduced and discretized dataset.
 Normalized dataset.
 Clustered dataset.
 Player recommendation engine.
 Project Report (methodology, results, and analysis of the project).
-Novelty:
+
+# Novelty:
 Our project presents a novel approach to clustering the FIFA Players Dataset, which differs from previous studies that have used Fuzzy-C clustering. Instead, we opted for hierarchical clustering using K-means. Moreover, we clustered players not just based on their individual skill attributes, but also based on their overall and potential ratings, which were classified into three categories: good players, average players, and poor players. We then performed clustering on each of these categories to obtain clusters of players based on their positions: goalkeeper, defenders, midfielders, and forwards. This approach offers a more comprehensive perspective on player performance and takes into account multiple factors that impact a player's contribution to the team.
 
 By clustering players in this way, our project can provide valuable insights and recommendations to football clubs and scouting agencies looking to optimize their team rosters by identifying suitable players that match their requirements. We believe that our methodology has the potential to contribute to the development of more sophisticated player recommendation systems in the future.
