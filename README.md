@@ -9,7 +9,7 @@ Clustering: The dataset will be clustered to group similar players together base
 Recommendation Engine: The recommendation engine will be developed using the clustered dataset to suggest players to users based on their preferences and gameplay style.
 
 # Deliverables:
- Markup: 1. Cleaned and pre-processed FIFA dataset.
+ 1. Cleaned and pre-processed FIFA dataset.
          2. Reduced and discretized dataset.
          3. Normalized dataset.
          4. Clustered dataset.
