@@ -9,12 +9,12 @@ Clustering: The dataset will be clustered to group similar players together base
 Recommendation Engine: The recommendation engine will be developed using the clustered dataset to suggest players to users based on their preferences and gameplay style.
 
 # Deliverables:
- - 1. Cleaned and pre-processed FIFA dataset.
- -  2. Reduced and discretized dataset.
-         3. Normalized dataset.
-         4. Clustered dataset.
-         5. Player recommendation engine.
-         6. Project Report (methodology, results, and analysis of the project).
+ -  Cleaned and pre-processed FIFA dataset.
+ -  Reduced and discretized dataset.
+ -  Normalized dataset.
+ -  Clustered dataset.
+ -  Player recommendation engine.
+ -  Project Report (methodology, results, and analysis of the project).
 
 
 
