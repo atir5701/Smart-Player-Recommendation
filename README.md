@@ -27,3 +27,13 @@ The 3D image displays a clear visualisation of four distinct clusters, each repr
 Each cluster is clearly defined, with minimal overlap between them. The blue cluster, representing Defenders, is primarily located towards the back of the image, indicating that Defenders tend to have lower ratings in terms of attacking skills. The green cluster representing Midfielders is situated slightly more towards the front of the image, reflecting the fact that Midfielders have more varied skill sets, with higher ratings in areas such as passing and dribbling. The yellow cluster representing Forwards is located towards the front of the image, reflecting their high ratings in attacking attributes such as shooting and pace.
 
 Overall, the visualisation provides a clear and intuitive representation of the clustering of football players into different positions. It allows for easy identification and analysis of players within each cluster and can be used to make data-driven decisions for team selection or player recruitment.
+
+
+# Elbow Method to determine the Suitable Number of Cluster
+To determine the optimal number of clusters for a K-means algorithm, several clustering solutions must be tested and the Within Cluster Sum of Squares (WCSS) must be calculated for each solution. The Elbow method is a popular approach for deciding how many clusters to keep based on the values of the WCSS.
+
+To begin, the number of clustering solutions to test must be determined, which depends on the specific characteristics of the dataset being analyzed. In our case, we test the K-means algorithm with up to 20 clusters.
+
+We then plot a graph of WCSS versus the number of clusters and analyze it to determine the appropriate number of clusters to use. This is where the Elbow method comes into play. The method involves searching for a kink or elbow in the WCSS graph, where the steep decline before the elbow is followed by a smoother decline after it.
+
+In this instance, the elbow appears at the 4 clusters mark. Therefore, we will divide the dataset into four clusters, namely Defenders, Attackers, Mid-Fielders, and Goalkeepers, as indicated by the colors blue, red, green, and yellow in our 3D cluster visualization. By utilizing the Elbow method, we can effectively determine the optimal number of clusters to use in our K-means algorithm, ensuring that our clustering solutions are both accurate and efficient. This approach can be applied in a wide range of contexts, providing a valuable tool for data analysts and researchers looking to optimize their clustering algorithms.
