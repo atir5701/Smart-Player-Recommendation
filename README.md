@@ -1,6 +1,6 @@
 # Smart-Player-Recommendation
 
-Objectives:
+# Objectives:
 Data Cleaning: The dataset will be cleaned by removing irrelevant data, fixing incorrect data types, handling missing values, and dealing with outliers.
 Data Reduction: The dataset will be reduced by selecting relevant features, eliminating redundant data, and reducing the dimensionality of the dataset.
 Data Discretization: The dataset will be discretized by dividing continuous data into discrete intervals to simplify the dataset.
