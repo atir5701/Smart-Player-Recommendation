@@ -34,6 +34,7 @@ Each cluster is clearly defined, with minimal overlap between them. The blue clu
 
 Overall, the visualisation provides a clear and intuitive representation of the clustering of football players into different positions. It allows for easy identification and analysis of players within each cluster and can be used to make data-driven decisions for team selection or player recruitment.
 
+![Alt text](Img/Img/Cluster.jpg)
 
 # Elbow Method to determine the Suitable Number of Cluster
 To determine the optimal number of clusters for a K-means algorithm, several clustering solutions must be tested and the Within Cluster Sum of Squares (WCSS) must be calculated for each solution. The Elbow method is a popular approach for deciding how many clusters to keep based on the values of the WCSS.
